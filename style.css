@@ -1,0 +1,416 @@
+@charset "utf-8";
+
+/* リセットcss */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/*ここから*/
+header {
+  background: black;
+  color: white;
+  height: 70px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 70px;
+  padding-left: 35px;
+}
+
+.header-nav a {
+  color: white;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+#eyecatch {
+  height: 500px;
+  background: url(./img/eyecatch.jpg) no-repeat;
+  background-size: cover;
+}
+
+#eyecatch h2 {
+  position: absolute;
+  top: 350px;
+  left: 120px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#eyecatch p {
+  color: black;
+  background-color: white;
+  height: 50px;
+  width: 600px;
+  position: absolute;
+  top: 87%;
+  left: 40%;
+}
+
+.eyecatch2 {
+  display: absolute;
+  height: 250px;
+  background-color: black;
+}
+
+.eye-wrapper {
+  color: white;
+  position: relative;
+  top: 33%;
+  left: 15%;
+}
+
+.eye-wrapper h3 {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.eye-wrapper p {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.eye-wrapper button {
+  font-size: 10px;
+  padding: 10px 30px;
+}
+
+.white {
+  height: 100px;
+}
+
+.service h3 {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 0 10px 0;
+}
+
+.service-div {
+  background-color: white;
+  height: 150px;
+  width: cover;
+  margin-left: 150px;
+  margin-top: 100px;
+  padding: 50px 30px;
+}
+
+.service-right img {
+  height: 400px;
+  width: 500px;
+}
+
+.service-wrap {
+  display: flex;
+  width: 100%;
+}
+
+.service {
+  background-color: rgb(243, 240, 240);
+  position: absolute;
+  height: 1000px;
+}
+
+.service-left {
+  position: relative;
+  top: 25%;
+  left: 10%;
+}
+
+.service-left h4,
+.service-left p {
+  margin-bottom: 20px;
+}
+
+.service-div button {
+  display: inline;
+  text-align: right;
+}
+
+.service-right2 {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  background-color: white;
+  height: 100px;
+  width: cover;
+  padding: 50px 30px;
+}
+
+.service-wrap2 {
+  display: flex;
+  width: 100%;
+  margin-top: 200px;
+  position: relative;
+}
+
+.service-right2 h4,
+.service-right2 p {
+  margin-bottom: 20px;
+}
+
+.form-top {
+  height: 350px;
+  position: relative;
+}
+
+.form-top img {
+  margin-top: 100px;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.text h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.text2 {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+}
+
+.text2 h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-bottom {
+  height: 200px;
+}
+
+.hako {
+  height: 100px;
+  background-color: black;
+  margin: 0 60px;
+}
+
+.hako h3,
+.hako p {
+  color: white;
+}
+
+.hako p {
+  margin-left: 400px;
+  text-align: center;
+}
+
+.hako h3 {
+  margin-left: 30px;
+}
+
+.footer {
+  margin-top: 1500px;
+  height: 380px;
+  color: black;
+}
+
+.footer-wrapper img {
+  background-size: cover;
+  height: 380px;
+}
+
+.footer-wrapper {
+  position: relative;
+}
+
+.contact h3,
+.contact p,
+.contact h4 {
+  margin-bottom: 30px;
+}
+
+.contact {
+  position: absolute;
+  top: 30%;
+  color: white;
+  text-align: center;
+}
