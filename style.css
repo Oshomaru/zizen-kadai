@@ -167,250 +167,267 @@ select {
   vertical-align: middle;
 }
 
-/*ここから*/
-header {
-  background: black;
-  color: white;
-  height: 70px;
-}
+/* その他のスタイルは以下に記述していきます */
 
+/*ここから*/
 .flex {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.header {
-  justify-content: space-between;
-}
-
 .header-logo {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 70px;
-  padding-left: 35px;
+  color: white;
+  margin-left: 35px;
 }
 
-.header-nav a {
+.header {
+  height: 50px;
+  background-color: black;
+}
+
+.header-nav {
   color: white;
 }
 
 .header-nav li {
   display: inline-block;
-  margin-right: 35px;
+  margin-right: 30px;
 }
 
 #eyecatch {
-  height: 500px;
+  height: 600px;
   background: url(./img/eyecatch.jpg) no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 #eyecatch h2 {
-  position: absolute;
-  top: 350px;
-  left: 120px;
   color: white;
+  position: absolute;
+  top: 60%;
+  left: 10%;
   font-size: 30px;
   font-weight: bold;
 }
 
-#eyecatch p {
-  color: black;
-  background-color: white;
-  height: 50px;
-  width: 600px;
-  position: absolute;
-  top: 87%;
-  left: 40%;
+.tagu-wrapper .news {
+  color: white;
 }
 
-.eyecatch2 {
-  display: absolute;
-  height: 250px;
+.flex-tagu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  top: 91%;
+}
+
+.tagu-left {
+  background-color: white;
+  width: 40%;
+}
+
+.news {
   background-color: black;
 }
 
-.eye-wrapper {
-  color: white;
+.news p {
+  padding: 20px 30px;
+}
+
+.tagu-left p {
+  padding-bottom: 10px;
+}
+
+.eyecatch_2-wrapper {
+  background: url(./img/mission-img.jpg) no-repeat;
+  background-size: 500px;
+  background-position: right;
+  background-color: black;
+  height: 300px;
   position: relative;
-  top: 33%;
-  left: 15%;
-}
-
-.eye-wrapper h3 {
-  font-size: 15px;
-  margin-bottom: 20px;
-}
-
-.eye-wrapper p {
-  font-size: 10px;
-  margin-bottom: 20px;
-}
-
-.eye-wrapper button {
-  font-size: 10px;
-  padding: 10px 30px;
-}
-
-.white {
-  height: 100px;
-}
-
-.service h3 {
-  text-align: center;
-  font-size: 25px;
-  padding: 10px 0 10px 0;
-}
-
-.service-div {
-  background-color: white;
-  height: 150px;
-  width: cover;
-  margin-left: 150px;
-  margin-top: 100px;
-  padding: 50px 30px;
-}
-
-.service-right img {
-  height: 400px;
-  width: 500px;
-}
-
-.service-wrap {
-  display: flex;
-  width: 100%;
-}
-
-.service {
-  background-color: rgb(243, 240, 240);
-  position: absolute;
-  height: 1000px;
-}
-
-.service-left {
-  position: relative;
-  top: 25%;
-  left: 10%;
-}
-
-.service-left h4,
-.service-left p {
-  margin-bottom: 20px;
-}
-
-.service-div button {
-  display: inline;
-  text-align: right;
-}
-
-.service-right2 {
-  position: absolute;
-  top: 25%;
-  left: 30%;
-  background-color: white;
-  height: 100px;
-  width: cover;
-  padding: 50px 30px;
-}
-
-.service-wrap2 {
-  display: flex;
-  width: 100%;
-  margin-top: 200px;
-  position: relative;
-}
-
-.service-right2 h4,
-.service-right2 p {
-  margin-bottom: 20px;
-}
-
-.form-top {
-  height: 350px;
-  position: relative;
-}
-
-.form-top img {
-  margin-top: 100px;
-}
-
-.flex-between {
-  display: flex;
-  justify-content: space-between;
 }
 
 .text {
   color: white;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 20%;
 }
 
-.text h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.text2 {
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 75%;
-}
-
-.text2 h2 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.form-bottom {
-  height: 200px;
-}
-
-.hako {
-  height: 100px;
-  background-color: black;
-  margin: 0 60px;
-}
-
-.hako h3,
-.hako p {
-  color: white;
-}
-
-.hako p {
-  margin-left: 400px;
-  text-align: center;
-}
-
-.hako h3 {
-  margin-left: 30px;
-}
-
-.footer {
-  margin-top: 1500px;
-  height: 380px;
-  color: black;
-}
-
-.footer-wrapper img {
-  background-size: cover;
-  height: 380px;
-}
-
-.footer-wrapper {
-  position: relative;
-}
-
-.contact h3,
-.contact p,
-.contact h4 {
+.text h3,
+.text p {
   margin-bottom: 30px;
 }
 
-.contact {
-  position: absolute;
-  top: 30%;
-  color: white;
+.text p {
+  font-size: 5px;
+}
+
+.text a {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+}
+
+.white {
+  height: 100px;
+  background-color: white;
+}
+
+.service {
+  height: 900px;
+  background-color: rgb(236, 231, 231);
+  position: relative;
+}
+
+.service-wrapper-top {
+  height: 400px;
+  background: url(./img/service2.jpg) no-repeat;
+  background-size: 50%;
+  background-position: right;
+}
+
+.service h2 {
   text-align: center;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.tag {
+  background-color: white;
+  width: 40%;
+  padding: 40px 40px;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.tag h3,
+.tag p {
+  margin-bottom: 20px;
+}
+
+.tag a {
+  border: 1px solid black;
+  padding: 5px 20px;
+  color: black;
+}
+
+.right {
+  text-align: right;
+}
+
+.tag_2 {
+  background-color: white;
+  width: 40%;
+  padding: 40px 40px;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+
+.tag_2 h3,
+.tag_2 p {
+  margin-bottom: 20px;
+}
+
+.tag_2 a {
+  border: 1px solid black;
+  padding: 5px 20px;
+  color: black;
+}
+
+.service-wrapper-bottom {
+  background: url(./img/service1.jpg) no-repeat;
+  background-size: 50%;
+  background-position: left;
+  height: 500px;
+  background-color: rgb(236, 231, 231);
+}
+
+.form-wrapper {
+  height: 500px;
+}
+
+.form-top {
+  display: flex;
+  color: white;
+  padding-top: 100px;
+}
+
+.form-left {
+  background: url(./img/company.jpeg) no-repeat;
+  background-size: 650px;
+  background-position: left;
+  width: 50%;
+  height: 200px;
+}
+
+.form-left p,
+.form-left h2 {
+  text-align: center;
+}
+
+.form-right {
+  background: url(./img/recruit.jpg) no-repeat;
+  background-size: 650px;
+  background-position: right;
+  width: 50%;
+  height: 200px;
+  text-align: center;
+}
+
+.form-bottom {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  text-align: center;
+  margin: 100px 100px;
+}
+
+.form-bottom h2,
+.form-bottom p {
+  color: white;
+}
+
+.form-bottom h2 {
+  margin-left: 35px;
+}
+
+.form-bottom p {
+  margin: 0 430px;
+}
+
+.contact-wrapper {
+  color: white;
+  height: 300px;
+  background: url(./img/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  text-align: center;
+  padding: 200px 20px;
+}
+
+.contact-wrapper a {
+  color: white;
+  border: 1px solid white;
+  padding: 5px 20px;
+}
+
+.contact-wrapper h3,
+.contact-wrapper p {
+  margin-bottom: 30px;
+}
+
+.contact-wrapper h3 {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.contact-wrapper h2,
+.contact-wrapper h4 {
+  margin-top: 10px;
 }
