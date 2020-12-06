@@ -241,12 +241,15 @@ select {
 }
 
 .eyecatch_2-wrapper {
-  background: url(./img/mission-img.jpg) no-repeat;
-  background-size: 500px;
-  background-position: right;
   background-color: black;
   height: 300px;
   position: relative;
+}
+
+.eyecatch_2-wrapper img {
+  position: absolute;
+  top: 20%;
+  left: 60%;
 }
 
 .text {
@@ -363,11 +366,24 @@ select {
   background-position: left;
   width: 50%;
   height: 200px;
+  position: relative;
 }
 
 .form-left p,
 .form-left h2 {
   text-align: center;
+}
+
+.form-left h2 {
+  position: absolute;
+  top: 25%;
+  left: 36%;
+}
+
+.form-left p {
+  position: absolute;
+  top: 48%;
+  left: 42%;
 }
 
 .form-right {
@@ -377,6 +393,19 @@ select {
   width: 50%;
   height: 200px;
   text-align: center;
+  position: relative;
+}
+
+.form-right h2 {
+  position: absolute;
+  top: 25%;
+  left: 43%;
+}
+
+.form-right p {
+  position: absolute;
+  top: 48%;
+  left: 47%;
 }
 
 .form-bottom {
